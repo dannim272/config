@@ -1,5 +1,7 @@
 require("daniil.remap")
 require("daniil.set")
+require("daniil.packer")
+
 
 local augroup = vim.api.nvim_create_augroup
 local TheDaniilGroup = augroup('TheDaniil', {})
